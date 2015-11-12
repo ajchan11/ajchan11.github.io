@@ -1,0 +1,91 @@
+body {
+	text-align: center;
+	font-size: 30px;
+	font-style: serif;
+	color:white;
+	background-color:#5590cc;
+	cursor: url(assets/images/noClick.png), default;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-position: center;
+	background-image: url(assets/images/map.png);
+	background-attachment: fixed;               
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.gameOver {
+	background-image: url(assets/images/gameOver.png);
+}
+
+.container {
+	width:950px;
+	margin: 100px auto;
+}
+
+
+.picX {
+	height:100px;
+	width:100px;
+	padding:1px;
+	display:inline-block;
+	background-image: url(assets/images/blank100.png);
+}
+
+.blank {
+	height:100px;
+	width:100px;
+	padding:1px;
+	display:inline-block;
+	background-image: url(assets/images/blank100.png);
+}
+
+.timer {
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+.score {
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: 20px;
+	margin-right: 40px;
+	font-size: 20px;
+
+}
+
+.high {
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: 20px;
+	margin-right: 40px;
+	font-size: 20px;
+}
+
+.active {
+	height:100px;
+	width:100px;
+	display:inline-block;
+	background-image: url(assets/images/kim.png);
+}
+
+.sad {
+	height:100px;
+	width:100px;
+	display:inline-block;
+	background-image: url(assets/images/sad.png);
+}
+
+.dalai {
+	height:100px;
+	width:100px;
+	display:inline-block;
+	background-image: url(assets/images/dalai.png);
+}
+
+.clicky {
+	cursor: url(assets/images/onClick.png), auto;
+}
